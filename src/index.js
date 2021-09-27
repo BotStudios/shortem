@@ -13,7 +13,7 @@ const { Client, Intents, Collection } = require('discord.js')
 , config = require('./config.json')
 , commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
 client.commands = new Collection();
-
+require('./error.js');
 require('dotenv').config();
 require('./server');
 
@@ -31,8 +31,13 @@ for (const file of commandFiles) {
 
 
 client.on('messageCreate', async message => {
-  if(message.content == "!!deploy"){
-     deploy(client, message, config);
+	var prefix = config.prefix || process.env.prefix;
+        if (!message.content.startsWith(prefix) || message.author.bot) return;
+	const args = message.content.slice(prefix.length).trim().split(' ');
+	const command = args.shift().toLowerCase();
+	if(command == "deploy"){
+	deploy(client, message, config);
+	}
    }
 })
 
