@@ -38,7 +38,7 @@ client.on('messageCreate', async message => {
 	if(command == "deploy"){
 	deploy(client, message, config);
 	}
-   }
+   
 })
 
 
