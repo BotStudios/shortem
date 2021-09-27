@@ -1,6 +1,7 @@
 {
   "token": "Discord Bot Token", 
   "owner_id": "UserID", 
+  "prefix": "Discord Bot Prefix"
   "database_uri": "Database_URI", 
   "debug": "Debug Logs", 
   "PORT": "Port To Listen" 
