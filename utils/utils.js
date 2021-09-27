@@ -1,3 +1,6 @@
+const Database = require('./database.js');
+const db = new Database();
+
 exports.repeat = function (str, times) {
   return Array(times + 1).join(str)
 }
@@ -19,7 +22,6 @@ function options (defaults, opts) {
 
   return defaults
 };
-exports.options = options
 
 exports.strlen = function (str) {
   var code = /\u001b\[(?:\d*;){0,5}\d*m/g
@@ -27,3 +29,6 @@ exports.strlen = function (str) {
   var split = stripped.split('\n')
   return split.reduce(function (memo, s) { return (s.length > memo) ? s.length : memo }, 0)
 }
+
+exports.db = db
+exports.options = options
