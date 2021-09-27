@@ -3,6 +3,7 @@ const urls = monk(MONGODB_URI);
 const db = urls.get('shortem')
 db.createIndex({ slug: 1 }, { unique: true });
 
+// MongoDB 
 class mongoDatabase {
   
       constructor(data) {
@@ -41,6 +42,7 @@ class mongoDatabase {
      }
 }
 
+// Replit Database
 /*
 const Database = require('@replit/database');
 const db = new Database();
@@ -66,6 +68,7 @@ class replitDatabase {
     async list() {
       return await db.list()
      }
-} */
+}
+*/
 
 module.exports = mongoDatabase;
