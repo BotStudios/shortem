@@ -12,5 +12,5 @@ A URL Shortener That Allow Users To Interact With Its API Through A Discord Bot
 - `/delete <slug>` - Delete A Slug
 - `/list` - A List Of Available Slugs
 - `/info <slug/url>` - View Slug's Information
-- `<prefix>deploy` - Deploy Slash Commands ( Owner )
+- `deploy` - Deploy Slash Commands ( Owner )
 
