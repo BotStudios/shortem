@@ -8,10 +8,9 @@ A URL Shortener That Allow Users To Interact With Its API Through A Discord Bot
 - Customizable, Using Command Handling Method
 
 ## Commands/API
-- `create` - Create A Slug 
-- `delete` - Delete A Slug
-- `list` - A List Of Available Slugs
-- `info` - View Slug's Information
-
-- `deploy` - Deploy Slash Commands ( Owner )
+- `/create <slug> <url>` - Create A Slug 
+- `/delete <slug>` - Delete A Slug
+- `/list` - A List Of Available Slugs
+- `/info <slug/url>` - View Slug's Information
+- `<prefix>deploy` - Deploy Slash Commands ( Owner )
 
