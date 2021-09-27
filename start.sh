@@ -4,4 +4,4 @@ npm install
 
 echo Starting...
 
-npm run dev
+npm start
