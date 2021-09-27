@@ -2,5 +2,6 @@
   "token": "DISCORD_BOT_TOKEN",
   "owner_id": "OWNER_DISCORD_USER_ID",
   "database_uri": "DATABASE_URI",
+  "debug": "DEBUG_TRUE_FALSE",
   "PORT": "LISTEN_TO_PORT"
 }
