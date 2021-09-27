@@ -1,12 +1,7 @@
 {
-  /* Discord Bot Token */
-  "token": "", 
-  /* Owner Of The Discord Bot */
-  "owner_id": "", 
-  /* Database URI */
-  "database_uri": "", 
-  /* Debug Logs ( true / false ) */
-  "debug": "", 
-  /* Port To Listen */
-  "PORT": "" 
+  "token": "Discord Bot Token", 
+  "owner_id": "UserID", 
+  "database_uri": "Database_URI", 
+  "debug": "Debug Logs", 
+  "PORT": "Port To Listen" 
 }
