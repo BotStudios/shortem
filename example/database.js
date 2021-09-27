@@ -10,24 +10,34 @@ class mongoDatabase {
       }
   
     async get(name) {
-     return await db.findOne({ slug: name });
+     var data = await db.findOne({ slug: name });
+     if(data){
+       return data.url;
+     }
      }
   
     async set(name, value) {
      return await db.insert({
-       url: name,
-       slug: value
+       url: value,
+       slug: name
      });
      }
   
     async delete(name) {
      return await db.remove({
-       url: name
+       slug: name
      });
      }
      
     async list() {
-     return await db.find({ });
+     var data = await db.find({ });
+     var list = [];
+     for(var i of data){
+       list.push(
+         `${i.slug}`
+       )
+     }
+     return list;
      }
 }
 
