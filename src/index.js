@@ -10,7 +10,7 @@ const { Client, Intents, Collection } = require('discord.js')
 , Joi = require('joi')
 , fs = require('fs')
 , deploy = require('./commands/deploy.js')
-, config = require('./config.json')
+, config = require('./../config.json')
 , commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
 client.commands = new Collection();
 require('./error.js');
