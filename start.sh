@@ -2,6 +2,6 @@ echo Installing Dependencies
 
 npm install
 
-echo Starting The Bot...
+echo Starting...
 
 npm run dev
