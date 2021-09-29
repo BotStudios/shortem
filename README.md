@@ -33,3 +33,6 @@ A URL Shortener That Allow Users To Interact With Its API Through A Discord Bot
 **Dependencies**
 
 [discord.js](https://npmjs.com/discord.js), [@discordjs/rest](https://npmjs.com/@discordjs/rest), [discord-api-types](https://npmjs.com/discord-api-types), [dotenv](https://npmjs.com/dotenv), [express](https://npmjs.com/express), [helmet](https://npmjs.com/helmet), [joi](https://npmjs.com/joi)
+
+**Contributors**
+[@joeleeofficial](https://github.com/joeleeofficial), [@leecheeyong](https://github.com/leecheeyong)
