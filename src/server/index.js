@@ -13,12 +13,11 @@ app.use(express.json()); // Return JSON Data
 app.use(express.static('./public')); 
 
 
-app.get('/', async (req,res) => {
-  // Use HTML
- res.sendFile(path.join(__dirname, './public/index.html'))
-  // Or redirect
- // res.redirect('https://github.com/BotStudios/shortem')
-})
+/*app.get('/', async (req,res) => {
+   Use HTML
+   Or redirect :
+  res.redirect('https://github.com/BotStudios/shortem')
+})*/
 
 app.get('/:id', async (req,res) => {
    const slug = req.params.id;
