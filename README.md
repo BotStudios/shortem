@@ -15,3 +15,12 @@ A URL Shortener That Allow Users To Interact With Its API Through A Discord Bot
 - `/info <slug/url>` - View Slug's Information
 - `deploy` - Deploy Slash Commands ( Owner )
 
+## Requirements
+- Node.js 16.2.0^ ( see why : [here](https://github.com/BotStudios/wiki) )
+- Install All Required Dependencies
+
+## Setup 
+1. Clone This Repository ( By `git clone` Or [`create-shortem-app`](https://npmjs.com/create-shortem-app) )
+2. Edit The [Config File](./config.json)
+3. Run The Bot `npm run start` / `node src/index.js`
+
