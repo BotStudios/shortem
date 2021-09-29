@@ -37,3 +37,6 @@ A URL Shortener That Allow Users To Interact With Its API Through A Discord Bot
 **Contributors**
 
 [@joeleeofficial](https://github.com/joeleeofficial), [@leecheeyong](https://github.com/leecheeyong)
+
+## License
+This project is available as open source under the terms of the [Apache License 2.0](./LICENSE)
