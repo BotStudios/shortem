@@ -16,7 +16,7 @@ A URL Shortener That Allow Users To Interact With Its API Through A Discord Bot
 - `deploy` - Deploy Slash Commands ( Owner )
 
 ## Requirements
-- Node.js 16.2.0^ ( see why : [here](https://github.com/BotStudios/wiki) )
+- Node.js 16.2.0^ ( see why : [here](https://github.com/BotStudios/shortem/wiki/node.js-16.2.0%5E-is-required,-why-%3F) )
 - Install All Required Dependencies
 
 ## Setup 
