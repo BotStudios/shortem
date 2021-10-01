@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const path = require('path');
 const helmet = require('helmet');
-const db = require('./../utils/utils.js');
+const db = require('./../utils/utils.js').db;
 const config = require('./../config.json');
 const notFoundPath = path.join(__dirname, 'public/404.html');
 
